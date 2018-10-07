@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+﻿import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author TODO: please add student ID and name here
  * Try to write some comments for your codes (methods, 15 points)
  */
-public class HW2 {
+public class HW2 {//123
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
