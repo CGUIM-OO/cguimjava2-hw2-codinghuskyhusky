@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author TODO: please add student ID and name here
  * Try to write some comments for your codes (methods, 15 points)
  */
-public class HW2 {//12323
+public class HW2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -77,6 +77,7 @@ class Deck{
 		//Card card=new Card(1,1); ->means new card as clubs ace
 		//cards.add(card);
 		//Sample code end
+		//打作業打作業打作業
 
 	}	
 	//TODO: Please implement the method to print all cards on screen (10 points)
