@@ -79,6 +79,7 @@ class Deck{
 					Card card=new Card(i,j);
 					cards.add(card);
 					//input the card you initial each time
+					
 				}
 			}
 			
