@@ -71,17 +71,32 @@ class Deck{
 	//TODO: Please implement the constructor (30 points)
 	public Deck(int nDeck){
 		cards=new ArrayList<Card>();
+		
+		for(int deckcount=1;deckcount<=nDeck;deckcount++) {
+			
+			for(int i=1;i<=4;i++) {
+				for(int j=1;j<=13;j++) {
+					Card card=new Card(i,j);
+					cards.add(card);
+					//input the card you initial each time
+				}
+			}
+			
+		}
+			
 		//1 Deck have 52 cards, https://en.wikipedia.org/wiki/Poker
 		//Hint: Use new Card(x,y) and 3 for loops to add card into deck
 		//Sample code start
 		//Card card=new Card(1,1); ->means new card as clubs ace
 		//cards.add(card);
 		//Sample code end
-		//打作業打作業打作業
-
+		
 	}	
 	//TODO: Please implement the method to print all cards on screen (10 points)
 	public void printDeck(){
+		for(Card x : cards)
+		     x.printCard();
+
 		//Hint: print all items in ArrayList<Card> cards, 
 		//TODO: please implement and reuse printCard method in Card class (5 points)
 
@@ -107,8 +122,8 @@ class Card{
 	//TODO: 1. Please implement the printCard method (20 points, 10 for suit, 10 for rank)
 	public void printCard(){
 		//Hint: print (System.out.println) card as suit,rank, for example: print 1,1 as Clubs Ace
-
-	}
+        System.out.print("("+getSuit()+","+getRank()+")\n");
+    }
 	public int getSuit(){
 		return suit;
 	}
